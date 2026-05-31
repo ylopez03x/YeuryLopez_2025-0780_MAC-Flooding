@@ -89,10 +89,11 @@ El script muestra el progreso cada 100 paquetes enviados.
 
 ### Herramientas utilizadas
 - EVE-NG Community Edition
-- Cisco vIOS-L2 v15.2 (SW1, SW2)
-- Cisco vIOS v15.6 (R1)
+- Cisco IOL L2 v15.1 (SW1, SW2)
+- Cisco IOS 3725 v12.4 Dynamips (R1)
 - Kali Linux 2024
 - Python 3 + Scapy
+- VPCS (PC1, PC2)
 
 ---
 
