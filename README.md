@@ -4,6 +4,7 @@
 **Materia:** Seguridad de Redes  
 **Fecha:** 31/05/2026  
 
+[Ver demostración en YouTube](https://youtu.be/s0NAiirPzzI)
 ---
 
 ## Objetivo del Laboratorio
@@ -65,8 +66,6 @@ El script muestra el progreso cada 100 paquetes enviados.
 ### Topología
 > <img width="705" height="617" alt="image" src="https://github.com/user-attachments/assets/cd1d75ee-d1d4-4287-a719-60fb4a148550" />
  
-> Usar la captura del canvas completo con nombre y matrícula visibles
-
 ### Direccionamiento IP
 | Dispositivo | Interfaz | Dirección IP | Máscara | Rol |
 |---|---|---|---|---|
@@ -98,20 +97,21 @@ El script muestra el progreso cada 100 paquetes enviados.
 
 ## Capturas de Pantalla
 
-### Topología del laboratorio
-> 📸 **[INSERTAR CAPTURA DE LA TOPOLOGÍA]**
-
 ### Antes del ataque - Tabla CAM de SW1
-> 📸 **[INSERTAR CAPTURA DE: show mac address-table count en SW1]**
+> <img width="605" height="344" alt="image" src="https://github.com/user-attachments/assets/da6cc348-1b68-4b9b-bd48-2afb6950c5a6" />
+
 
 ### Ejecución del script
-> 📸 **[INSERTAR CAPTURA DEL SCRIPT CORRIENDO EN KALI]**
+><img width="605" height="344" alt="image" src="https://github.com/user-attachments/assets/4bcea5a2-7a2f-43ff-b4ce-6702bd8ea48b" />
+
 
 ### Durante el ataque - Tabla CAM llena
-> 📸 **[INSERTAR CAPTURA DE: show mac address-table count en SW1 con tabla llena]**
+> <img width="395" height="172" alt="image" src="https://github.com/user-attachments/assets/de6864ff-f514-498f-aec1-089879e83a77" />
+
 
 ### Tráfico capturado en Kali
-> 📸 **[INSERTAR CAPTURA DE: tcpdump -i eth0 mostrando tráfico ajeno]**
+> <img width="945" height="538" alt="image" src="https://github.com/user-attachments/assets/81bb3bef-8494-4b3a-8ac9-a000ede17527" />
+
 
 ---
 
@@ -131,11 +131,4 @@ interface ethernet 0/1
 ```
 
 ### Verificación de la contramedida
-> 📸 **[INSERTAR CAPTURA DE: show port-security interface ethernet 0/1]**
-
-### Resultado
-Con Port Security activo, el switch bloquea automáticamente 
-cualquier intento de registrar más de 5 MACs por puerto, 
-registrando las violaciones sin afectar el tráfico legítimo.
-
-> 📸 **[INSERTAR CAPTURA DEL SCRIPT CORRIENDO CON CONTRAMEDIDA ACTIVA]**
+> <img width="586" height="314" alt="image" src="https://github.com/user-attachments/assets/8dad315b-da04-46ed-b24b-34be419572d8" />
