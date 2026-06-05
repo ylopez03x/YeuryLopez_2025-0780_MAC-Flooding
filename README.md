@@ -63,7 +63,8 @@ El script muestra el progreso cada 100 paquetes enviados.
 ## Documentación de la Red
 
 ### Topología
-> 📸 **[INSERTAR CAPTURA DE PANTALLA DE LA TOPOLOGÍA EN EVE-NG]**  
+> <img width="705" height="617" alt="image" src="https://github.com/user-attachments/assets/cd1d75ee-d1d4-4287-a719-60fb4a148550" />
+ 
 > Usar la captura del canvas completo con nombre y matrícula visibles
 
 ### Direccionamiento IP
